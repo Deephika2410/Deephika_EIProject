@@ -1,4 +1,4 @@
-# Enterprise Integration Coding Exercises
+# EI Coding Exercises
 
 [![Java](https://img.shields.io/badge/Java-17+-orange.svg)](https://www.oracle.com/java/)
 [![Design Patterns](https://img.shields.io/badge/Design%20Patterns-7%20Implemented-green.svg)](#design-patterns)
