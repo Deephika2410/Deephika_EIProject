@@ -194,6 +194,257 @@ java -cp bin AstronautScheduleApp
 7. Export schedule to CSV for team sharing
 ```
 
+## Sample Application Outputs
+
+### Main Menu Interface
+```
+================================================================
+           ASTRONAUT DAILY SCHEDULE ORGANIZER
+================================================================
+
+1. Add New Task
+2. Remove Task
+3. Edit Task
+4. View All Tasks
+5. View Tasks by Priority
+6. Mark Task as Completed/Pending
+7. Run Productivity Analyzer
+8. Export Schedule
+9. Exit
+
+Please select an option [1-9]: 
+```
+
+### Adding a New Task
+```
+=== ADD NEW TASK ===
+
+Enter task description (3-100 characters): Morning Workout
+Enter start time (HH:mm): 07:00
+Enter end time (HH:mm): 08:00
+Select priority level:
+1. LOW
+2. MEDIUM
+3. HIGH
+4. CRITICAL
+Enter priority [1-4]: 3
+
+✅ SUCCESS: Task "Morning Workout" added successfully!
+⏰ Scheduled: 07:00 - 08:00 (1.00 hours)
+🔴 Priority: HIGH
+📝 Status: Pending
+
+Press Enter to continue...
+```
+
+### Conflict Detection Example
+```
+=== ADD NEW TASK ===
+
+Enter task description (3-100 characters): Team Meeting
+Enter start time (HH:mm): 07:30
+Enter end time (HH:mm): 08:30
+
+❌ ERROR: Task conflict detected!
+🔍 Conflicting with: "Morning Workout" (07:00 - 08:00)
+⚠️ Please choose a different time slot.
+
+Press Enter to continue...
+```
+
+### Viewing All Tasks
+```
+=== ALL TASKS (Sorted by Start Time) ===
+
+📅 Schedule for Today | Total Tasks: 3 | Completed: 1 | Pending: 2
+
+┌────┬─────────────────────┬──────────┬────────┬──────────┬──────────┐
+│ No │ Task Description    │ Start    │ End    │ Priority │ Status   │
+├────┼─────────────────────┼──────────┼────────┼──────────┼──────────┤
+│ 1  │ Morning Workout     │ 07:00    │ 08:00  │ HIGH     │ Pending  │
+│ 2  │ Team Standup       │ 09:00    │ 09:30  │ MEDIUM   │ Completed│
+│ 3  │ Research Session   │ 10:00    │ 12:00  │ HIGH     │ Pending  │
+└────┴─────────────────────┴──────────┴────────┴──────────┴──────────┘
+
+📊 Schedule Summary:
+• Total scheduled time: 3.5 hours
+• First task starts: 07:00
+• Last task ends: 12:00
+• Schedule span: 5 hours
+
+Press Enter to continue...
+```
+
+### Task Completion Tracking
+```
+=== MARK TASK COMPLETION ===
+
+Select task to update:
+1. Morning Workout (07:00-08:00) - Pending
+2. Research Session (10:00-12:00) - Pending
+
+Enter task number [1-2]: 1
+
+✅ SUCCESS: Task "Morning Workout" marked as COMPLETED!
+🎉 Great job! Task completed successfully.
+⏱️ Duration: 1.00 hours
+
+Press Enter to continue...
+```
+
+### Priority-Based Task Filtering
+```
+=== TASKS BY PRIORITY ===
+
+Select priority level to view:
+1. LOW (0 tasks)
+2. MEDIUM (1 task)
+3. HIGH (2 tasks)
+4. CRITICAL (0 tasks)
+
+Enter priority [1-4]: 3
+
+📋 HIGH PRIORITY TASKS:
+
+┌────┬─────────────────────┬──────────┬────────┬──────────┐
+│ No │ Task Description    │ Start    │ End    │ Status   │
+├────┼─────────────────────┼──────────┼────────┼──────────┤
+│ 1  │ Morning Workout     │ 07:00    │ 08:00  │ Completed│
+│ 2  │ Research Session   │ 10:00    │ 12:00  │ Pending  │
+└────┴─────────────────────┴──────────┴────────┴──────────┘
+
+⚠️ Note: 2 high-priority tasks scheduled today
+💡 Tip: Consider balancing priorities across the schedule
+
+Press Enter to continue...
+```
+
+### Productivity Analysis Report
+```
+=== PRODUCTIVITY ANALYSIS REPORT ===
+
+📊 SCHEDULE OVERVIEW:
+• Total tasks: 3
+• Completed tasks: 1 (33.3%)
+• Pending tasks: 2 (66.7%)
+• Total scheduled time: 3.5 hours
+• Schedule efficiency: Good
+
+🔴 PRIORITY DISTRIBUTION:
+• HIGH priority: 2 tasks (66.7%) ⚠️
+• MEDIUM priority: 1 task (33.3%)
+• LOW priority: 0 tasks (0.0%)
+• CRITICAL priority: 0 tasks (0.0%)
+
+⏰ TIME MANAGEMENT:
+• Average task duration: 1.17 hours
+• Longest task: Research Session (2.0 hours)
+• Shortest task: Team Standup (0.5 hours)
+• Schedule span: 5.0 hours (07:00 - 12:00)
+
+🎯 RECOMMENDATIONS:
+1. ⚠️ High concentration of HIGH priority tasks detected
+2. ✅ Good task duration balance maintained
+3. 💡 Consider adding buffer time between tasks
+4. 📈 Current completion rate: 33.3% - room for improvement
+
+🌟 PRODUCTIVITY SCORE: 7.2/10
+
+Press Enter to continue...
+```
+
+### Export Schedule - CSV Format
+```
+=== EXPORT SCHEDULE ===
+
+Select export format:
+1. Text (.txt)
+2. CSV (.csv)
+
+Enter format [1-2]: 2
+
+Enter filename (without extension): DailySchedule_Oct01
+
+✅ SUCCESS: Schedule exported successfully!
+📄 File: DailySchedule_Oct01.csv
+📍 Location: Current directory
+📊 Records exported: 3 tasks
+
+Export Preview:
+Task No.,Description,Start Time,End Time,Duration,Priority,Status
+1,Morning Workout,07:00,08:00,1.00,HIGH,Completed
+2,Team Standup,09:00,09:30,0.50,MEDIUM,Completed
+3,Research Session,10:00,12:00,2.00,HIGH,Pending
+
+Press Enter to continue...
+```
+
+### Export Schedule - Text Format
+```
+=== ASTRONAUT DAILY SCHEDULE ===
+Generated: 2025-10-01 at 14:30:25
+
+SCHEDULE OVERVIEW
+=================
+Total Tasks: 3
+Completed: 1
+Pending: 2
+Total Hours: 3.5
+
+TASK DETAILS
+============
+
+Task #1: Morning Workout
+├─ Time: 07:00 - 08:00 (1.0 hours)
+├─ Priority: HIGH
+├─ Status: ✅ COMPLETED
+└─ Notes: Physical fitness routine
+
+Task #2: Team Standup
+├─ Time: 09:00 - 09:30 (0.5 hours)
+├─ Priority: MEDIUM
+├─ Status: ✅ COMPLETED
+└─ Notes: Daily team coordination
+
+Task #3: Research Session
+├─ Time: 10:00 - 12:00 (2.0 hours)
+├─ Priority: HIGH
+├─ Status: ⏳ PENDING
+└─ Notes: Scientific research work
+
+SCHEDULE STATISTICS
+==================
+• First task: 07:00
+• Last task: 12:00
+• Schedule span: 5.0 hours
+• Completion rate: 33.3%
+• Average task duration: 1.17 hours
+
+Generated by Astronaut Schedule Organizer v1.0
+```
+
+### Error Handling Examples
+```
+=== INPUT VALIDATION EXAMPLES ===
+
+Invalid Time Format:
+Enter start time (HH:mm): 25:00
+❌ ERROR: Invalid time format! Please use HH:mm (24-hour format)
+
+Invalid Task Duration:
+Enter start time (HH:mm): 10:00
+Enter end time (HH:mm): 10:05
+❌ ERROR: Task too short! Minimum duration is 15 minutes.
+
+Empty Task Description:
+Enter task description: 
+❌ ERROR: Task description cannot be empty! (3-100 characters required)
+
+Task Not Found:
+Select task to remove [1-5]: 10
+❌ ERROR: Invalid task number! Please select from 1-3.
+```
+
 ## Input Validation Features
 
 ### Defensive Programming
@@ -333,11 +584,51 @@ Exception
 - **Optimized data structures** for quick access
 - **Minimal memory footprint**
 
+## Future Enhancements
+
+### Planned Features
+1. **Database Integration**: Persistent storage with H2 or SQLite
+2. **GUI Interface**: JavaFX-based graphical interface
+3. **REST API**: Web service capabilities for remote access
+4. **Calendar Integration**: Import/export with Google Calendar
+5. **Advanced Analytics**: Machine learning-based recommendations
+6. **Multi-user Support**: User authentication and role management
+7. **Mobile App**: Companion mobile application
+8. **Notification System**: Email and SMS reminders
+
 ### Extension Points
 - **Custom Analyzers**: Implement ProductivityAnalyzer interface
 - **New Export Formats**: Add to ScheduleExporterFactory
 - **Additional Observers**: Implement TaskObserver for new notification types
 - **Validation Rules**: Extend ValidationUtils for custom rules
+
+## Contributing
+
+### Code Style Guidelines
+1. **Java naming conventions** strictly followed
+2. **Comprehensive JavaDoc** for all public methods
+3. **SOLID principles** adherence required
+4. **Unit testing** for all new features
+5. **Error handling** for all operations
+
+### Development Setup
+1. Clone the repository
+2. Ensure Java 8+ is installed
+3. Use your preferred IDE (IntelliJ IDEA, Eclipse, VS Code)
+4. Run tests before submitting changes
+5. Follow existing code patterns
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
+For support, bug reports, or feature requests:
+1. Check the log file for detailed error information
+2. Review this README for usage guidance
+3. Submit issues with detailed error descriptions
+4. Include log excerpts for faster troubleshooting
 
 ## Acknowledgments
 
