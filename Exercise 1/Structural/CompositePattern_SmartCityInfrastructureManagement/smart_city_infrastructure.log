@@ -1,0 +1,105 @@
+[2025-09-30 21:40:55] [INFO] Starting Smart City Infrastructure Management System
+[2025-09-30 21:40:55] [INFO] Composite Design Pattern Demonstration
+[2025-09-30 21:40:55] [INFO] Author: Smart City Infrastructure Team
+[2025-09-30 21:40:55] [INFO] Version: 1.0
+[2025-09-30 21:40:55] [INFO] Smart City Manager initialized
+[2025-09-30 21:40:55] [INFO] ============================================================
+[2025-09-30 21:40:55] [INFO] Smart City Infrastructure Management System Started
+[2025-09-30 21:40:55] [INFO] Timestamp: 2025-09-30 21:40:55
+[2025-09-30 21:40:55] [INFO] Log Level: INFO
+[2025-09-30 21:40:55] [INFO] Console Output: true
+[2025-09-30 21:40:55] [INFO] File Output: true
+[2025-09-30 21:40:55] [INFO] Log File: smart_city_infrastructure.log
+[2025-09-30 21:40:55] [INFO] ============================================================
+[2025-09-30 21:41:47] [INFO] Created City component: madurai (ID: 1)
+[2025-09-30 21:41:47] [INFO] Created city: madurai in Tamilnadu, india
+[2025-09-30 21:41:47] [INFO] Created and set current city: madurai (ID: 1)
+[2025-09-30 21:43:37] [INFO] Starting Smart City Infrastructure Management System
+[2025-09-30 21:43:37] [INFO] Composite Design Pattern Demonstration
+[2025-09-30 21:43:37] [INFO] Author: Smart City Infrastructure Team
+[2025-09-30 21:43:37] [INFO] Version: 1.0
+[2025-09-30 21:43:37] [INFO] Smart City Manager initialized
+[2025-09-30 21:43:37] [INFO] ============================================================
+[2025-09-30 21:43:37] [INFO] Smart City Infrastructure Management System Started
+[2025-09-30 21:43:37] [INFO] Timestamp: 2025-09-30 21:43:37
+[2025-09-30 21:43:37] [INFO] Log Level: INFO
+[2025-09-30 21:43:38] [INFO] Console Output: true
+[2025-09-30 21:43:38] [INFO] File Output: true
+[2025-09-30 21:43:38] [INFO] Log File: smart_city_infrastructure.log
+[2025-09-30 21:43:38] [INFO] ============================================================
+[2025-09-30 21:44:36] [INFO] Starting Smart City Infrastructure Management System
+[2025-09-30 21:44:36] [INFO] Composite Design Pattern Demonstration
+[2025-09-30 21:44:36] [INFO] Author: Smart City Infrastructure Team
+[2025-09-30 21:44:36] [INFO] Version: 1.0
+[2025-09-30 21:44:36] [INFO] Smart City Manager initialized
+[2025-09-30 21:44:36] [INFO] ============================================================
+[2025-09-30 21:44:36] [INFO] Smart City Infrastructure Management System Started
+[2025-09-30 21:44:36] [INFO] Timestamp: 2025-09-30 21:44:36
+[2025-09-30 21:44:36] [INFO] Log Level: INFO
+[2025-09-30 21:44:36] [INFO] Console Output: true
+[2025-09-30 21:44:36] [INFO] File Output: true
+[2025-09-30 21:44:36] [INFO] Log File: smart_city_infrastructure.log
+[2025-09-30 21:44:36] [INFO] ============================================================
+[2025-09-30 21:44:56] [INFO] Created City component: madurai (ID: 1)
+[2025-09-30 21:44:56] [INFO] Created city: madurai in Tamilnadu, india
+[2025-09-30 21:44:56] [INFO] Created and set current city: madurai (ID: 1)
+[2025-09-30 21:45:31] [INFO] Created District component: Koodalnagar (ID: 1)
+[2025-09-30 21:45:31] [INFO] Created commercial district: Koodalnagar (Population: 300000, Area: 40000.0 sq km)
+[2025-09-30 21:45:31] [ERROR] Infrastructure operation failed - Exception: Cannot add component to itself
+[2025-09-30 21:46:45] [ERROR] Infrastructure operation failed - Exception: Component with ID '1' not found in District [Type: District, ID: 1, Operation: FIND]
+[2025-09-30 21:49:43] [INFO] Starting Smart City Infrastructure Management System
+[2025-09-30 21:49:43] [INFO] Composite Design Pattern Demonstration
+[2025-09-30 21:49:43] [INFO] Author: Smart City Infrastructure Team
+[2025-09-30 21:49:43] [INFO] Version: 1.0
+[2025-09-30 21:49:43] [INFO] Smart City Manager initialized
+[2025-09-30 21:49:43] [INFO] ============================================================
+[2025-09-30 21:49:43] [INFO] Smart City Infrastructure Management System Started
+[2025-09-30 21:49:43] [INFO] Timestamp: 2025-09-30 21:49:43
+[2025-09-30 21:49:43] [INFO] Log Level: INFO
+[2025-09-30 21:49:43] [INFO] Console Output: true
+[2025-09-30 21:49:43] [INFO] File Output: true
+[2025-09-30 21:49:43] [INFO] Log File: smart_city_infrastructure.log
+[2025-09-30 21:49:43] [INFO] ============================================================
+[2025-09-30 21:50:33] [INFO] Created City component: madurai (ID: 1)
+[2025-09-30 21:50:33] [INFO] Created city: madurai in Tamilnadu, india
+[2025-09-30 21:50:33] [INFO] Created and set current city: madurai (ID: 1)
+[2025-09-30 21:50:44] [INFO] Current city set to: madurai (ID: 1)
+[2025-09-30 21:51:13] [INFO] Created District component: Koodalnagar (ID: 1)
+[2025-09-30 21:51:13] [INFO] Created Residential district: Koodalnagar (Population: 800000, Area: 788888.0 sq km)
+[2025-09-30 21:51:13] [ERROR] Infrastructure operation failed - Exception: Cannot add component to itself
+[2025-09-30 21:55:34] [INFO] Starting Smart City Infrastructure Management System
+[2025-09-30 21:55:34] [INFO] Composite Design Pattern Demonstration
+[2025-09-30 21:55:34] [INFO] Author: Smart City Infrastructure Team
+[2025-09-30 21:55:34] [INFO] Version: 1.0
+[2025-09-30 21:55:34] [INFO] Smart City Manager initialized
+[2025-09-30 21:55:35] [INFO] ============================================================
+[2025-09-30 21:55:35] [INFO] Smart City Infrastructure Management System Started
+[2025-09-30 21:55:35] [INFO] Timestamp: 2025-09-30 21:55:35
+[2025-09-30 21:55:35] [INFO] Log Level: INFO
+[2025-09-30 21:55:35] [INFO] Console Output: true
+[2025-09-30 21:55:35] [INFO] File Output: true
+[2025-09-30 21:55:35] [INFO] Log File: smart_city_infrastructure.log
+[2025-09-30 21:55:35] [INFO] ============================================================
+[2025-09-30 21:56:01] [INFO] Starting Smart City Infrastructure Management System
+[2025-09-30 21:56:01] [INFO] Composite Design Pattern Demonstration
+[2025-09-30 21:56:01] [INFO] Author: Smart City Infrastructure Team
+[2025-09-30 21:56:01] [INFO] Version: 1.0
+[2025-09-30 21:56:01] [INFO] Smart City Manager initialized
+[2025-09-30 21:56:01] [INFO] ============================================================
+[2025-09-30 21:56:01] [INFO] Smart City Infrastructure Management System Started
+[2025-09-30 21:56:01] [INFO] Timestamp: 2025-09-30 21:56:01
+[2025-09-30 21:56:01] [INFO] Log Level: INFO
+[2025-09-30 21:56:01] [INFO] Console Output: true
+[2025-09-30 21:56:01] [INFO] File Output: true
+[2025-09-30 21:56:01] [INFO] Log File: smart_city_infrastructure.log
+[2025-09-30 21:56:01] [INFO] ============================================================
+[2025-09-30 21:56:18] [INFO] Created City component: madurai (ID: 1)
+[2025-09-30 21:56:18] [INFO] Created city: madurai in tamilnadu, india
+[2025-09-30 21:56:18] [INFO] Created and set current city: madurai (ID: 1)
+[2025-09-30 21:56:23] [INFO] Current city set to: madurai (ID: 1)
+[2025-09-30 21:56:50] [ERROR] Infrastructure operation failed - Exception: Component with ID '1' already exists in the system
+[2025-09-30 21:57:38] [INFO] Created District component: koodalnagar (ID: 2)
+[2025-09-30 21:57:38] [INFO] Created residential district: koodalnagar (Population: 800000, Area: 800.0 sq km)
+[2025-09-30 21:57:38] [INFO] Added District 'koodalnagar' to City 'madurai'
+[2025-09-30 21:57:38] [INFO] Created district: koodalnagar in city: madurai
+[2025-09-30 21:58:51] [ERROR] Infrastructure operation failed - Exception: Component with ID '5' not found in Zone [Type: Zone, ID: 5, Operation: FIND]

@@ -1,0 +1,6 @@
+[2025-10-01 11:59:25] [DEBUG] Entering ConsoleInterface.handleExportSchedule()
+[2025-10-01 11:59:25] [DEBUG] Entering ScheduleManager.getAllTasksSortedByTime()
+[2025-10-01 11:59:25] [INFO] Retrieved 3 tasks sorted by time
+[2025-10-01 11:59:25] [DEBUG] Exiting ScheduleManager.getAllTasksSortedByTime()
+[2025-10-01 11:59:45] [INFO] Success message: Schedule exported successfully to: ScheduleTable.csv
+[2025-10-01 11:59:45] [DEBUG] Exiting ConsoleInterface.handleExportSchedule()
