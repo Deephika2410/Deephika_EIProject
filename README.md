@@ -3,7 +3,7 @@
 [![Java](https://img.shields.io/badge/Java-17+-orange.svg)](https://www.oracle.com/java/)
 [![Design Patterns](https://img.shields.io/badge/Design%20Patterns-7%20Implemented-green.svg)](#design-patterns)
 [![SOLID Principles](https://img.shields.io/badge/SOLID-Principles%20Applied-blue.svg)](#solid-principles)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 
 A comprehensive portfolio demonstrating advanced Java development skills through practical design pattern implementations and enterprise-grade applications. This repository showcases professional software engineering practices applied to real-world business scenarios.
 
@@ -287,6 +287,9 @@ cd "Exercise 2/AstronautDailyScheduleOrganizer"
 ./run.bat
 ```
 
+## Contact
+
+For any questions or suggestions, please contact me at [deephika50@gmail.com].
 
 
 
