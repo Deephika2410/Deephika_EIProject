@@ -1,7 +1,7 @@
 # EI Coding Exercises
 
 
-[![Design Patterns](https://img.shields.io/badge/Design%20Patterns-7%20Implemented-green.svg)](#design-patterns)
+[![Design Patterns](https://img.shields.io/badge/Design%20Patterns-%20Implemented-green.svg)](#design-patterns)
 [![SOLID Principles](https://img.shields.io/badge/SOLID-Principles%20Applied-blue.svg)](#solid-principles)
 
 
