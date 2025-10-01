@@ -398,19 +398,19 @@ Task #1: Morning Workout
 ├─ Time: 07:00 - 08:00 (1.0 hours)
 ├─ Priority: HIGH
 ├─ Status: ✅ COMPLETED
-└─ Notes: Physical fitness routine
+
 
 Task #2: Team Standup
 ├─ Time: 09:00 - 09:30 (0.5 hours)
 ├─ Priority: MEDIUM
 ├─ Status: ✅ COMPLETED
-└─ Notes: Daily team coordination
+
 
 Task #3: Research Session
 ├─ Time: 10:00 - 12:00 (2.0 hours)
 ├─ Priority: HIGH
 ├─ Status: ⏳ PENDING
-└─ Notes: Scientific research work
+
 
 SCHEDULE STATISTICS
 ==================
