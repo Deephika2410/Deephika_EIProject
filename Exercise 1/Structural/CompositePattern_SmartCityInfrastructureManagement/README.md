@@ -93,7 +93,7 @@ src/
 - **Concrete implementations**: Depend on abstractions, not concretions
 - **Dependency injection**: Used throughout for loose coupling
 
-## 🛡️ Defensive Programming Features
+##  Defensive Programming Features
 
 ### Input Validation
 - **Null checks**: All inputs validated against null values
@@ -172,7 +172,7 @@ The system provides 18 interactive menu options:
 6. Add various devices to floors
 7. Use management operations to monitor and maintain the infrastructure
 
-## 🔧 Key Features
+##  Key Features
 
 ### Dynamic Runtime Creation
 - No hardcoded data - all components created through user interaction
@@ -194,7 +194,7 @@ The system provides 18 interactive menu options:
 - Operational status summaries
 - Maintenance requirement tracking
 
-## 🧪 Testing the Composite Pattern
+##  Testing the Composite Pattern
 
 ### Uniform Treatment Demonstration
 ```java
@@ -212,7 +212,7 @@ The system demonstrates classic composite tree operations:
 - **Maintenance**: Propagating operations through the tree
 - **Search**: Finding components at any level
 
-## 🔮 Extensibility
+##  Extensibility
 
 ### Adding New Device Types
 1. Extend `AbstractDevice`
@@ -246,32 +246,6 @@ The system demonstrates classic composite tree operations:
 - **Reusability**: Components can be reused in different contexts
 - **Flexibility**: System adapts to new requirements easily
 
-## 🐛 Troubleshooting
-
-### Common Issues
-1. **Compilation Errors**: Ensure Java is properly installed and JAVA_HOME is set
-2. **Runtime Errors**: Check that all required files are compiled and in the classpath
-3. **Input Validation**: Follow the prompted input formats exactly
-4. **Memory Issues**: For large hierarchies, increase JVM heap size
-
-### Debug Features
-- **Verbose Logging**: Enable detailed logging for troubleshooting
-- **Component Validation**: Built-in validation checks component integrity
-- **Error Recovery**: System handles errors gracefully and continues operation
-
-## 📝 License
-
-This project is created for educational purposes to demonstrate design patterns and software engineering principles.
-
-## 👥 Contributing
-
-This is an educational project demonstrating design patterns. Feel free to extend it for learning purposes:
-- Add new device types
-- Implement additional design patterns
-- Enhance the user interface
-- Add persistence capabilities
-- Integrate with external systems
-
 ---
 
-**Note**: This system demonstrates pure object-oriented design principles with no external dependencies, making it an excellent learning resource for understanding the Composite Design Pattern and SOLID principles in practice.
+
